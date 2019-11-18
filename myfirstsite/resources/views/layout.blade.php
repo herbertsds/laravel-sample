@@ -67,14 +67,15 @@
         <div class="flex-center position-ref full-height">
 
             <div class="content">
-                <div class="title m-b-md">
-                    @yield('title')
-                </div>
 
                 <div class="links">
                     <a href="/">Home</a>
                     <a href="/contact">Contact</a>
                     <a href="/about">About</a>
+                </div>
+
+                <div class="title m-b-md">
+                    @yield('title')
                 </div>
 
                 <div>
